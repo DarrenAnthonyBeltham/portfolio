@@ -13,7 +13,6 @@ export default function Skills() {
 
       <div className="flex flex-col md:flex-row justify-around w-full max-w-6xl space-y-12 md:space-y-0 md:space-x-12">
 
-        {/* Soft Skills */}
         <motion.div
           className="flex flex-col items-center bg-[#F1EBE1] rounded-xl p-10 shadow-lg transform transition duration-500 hover:scale-105 w-full md:w-1/2"
           initial={{ opacity: 0, y: 50 }}
@@ -42,7 +41,6 @@ export default function Skills() {
           </ul>
         </motion.div>
 
-        {/* Hard Skills */}
         <motion.div
           className="flex flex-col items-center bg-[#F1EBE1] rounded-xl p-10 shadow-lg transform transition duration-500 hover:scale-105 w-full md:w-1/2"
           initial={{ opacity: 0, y: 50 }}
