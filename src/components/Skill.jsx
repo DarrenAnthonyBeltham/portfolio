@@ -4,9 +4,8 @@ import SoftSkill from '../image/SoftSkill.png';
 
 export default function Skills() {
   return (
-    <div className="min-h-screen bg-[#C0CFB2] flex flex-col items-center justify-center py-16 px-8 font-spacemono">
+    <div className="bg-[#C0CFB2] flex flex-col items-center justify-center px-8 py-32 font-spacemono">
       <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#F1EBE1]">SKILL.</h1>
-      <div className="w-full h-px bg-gray-300 mb-4"></div> 
       <p className="text-lg md:text-xl text-gray-600 mb-8 text-center max-w-2xl">
         Explore some of my skills ✦ Each one reflects my passion and commitment to mastering
         techniques that turn concepts into impactful solutions.
