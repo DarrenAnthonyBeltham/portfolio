@@ -17,7 +17,7 @@ const experiences = [
   },
   {
     id: 3,
-    title: 'PIC of Event Operations for BMCC Uncover Your Skill 2024',
+    title: 'PIC of Event Operations for BNCC Uncover Your Skill 2024',
     img: UYS,
   },
   {
@@ -29,7 +29,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="bg-[#D9D9D9] min-h-screen flex flex-col items-center p-8">
+    <div className="bg-[#D9D9D9] min-h-screen flex flex-col items-center p-8 py-32">
       <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#6D4930] text-center font-spacemono">
         EXPERIENCE.
       </h1>
