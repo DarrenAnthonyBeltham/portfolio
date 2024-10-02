@@ -1,30 +1,32 @@
-import React from 'react'
-import logo from '../image/Logo.png'
+import React from 'react';
+import Logo from '../image/Logo.png'
 
+export default function Header() {
+  const handleScroll = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
 
-const Header = () => {
   return (
-    <div className="navbar flex justify-between items-center px-8 py-4 bg-[#4A6857]">
-      <div className="flex-1">
-        <img src={logo} alt="Logo" className="logo h-8" />
+    <header className="bg-[#4A6857] text-white flex items-center justify-between px-6 py-4 font-spacemono">
+      <div className="flex items-center">
+        <img src={Logo} alt="Logo" className="w-12 h-12 mr-4" /> 
       </div>
-      
-      <ul className="flex space-x-8 text-[#F1EBE1] flex-1 justify-center">
-        <li>
-          <a className="navbarfont text-lg font-bold hover:text-black transition-colors font-spacemono" href="#">About</a>
-        </li>
-        
-        <li>
-          <a className="navbarfont text-lg font-bold hover:text-black transition-colors font-spacemono" href="#">Portfolio</a>
-        </li>
-        
-        <li>
-          <a className="navbarfont text-lg font-bold hover:text-black transition-colors font-spacemono" href="#">Contact</a>
-        </li>
-      </ul>
-      <div className="flex-1"></div>
-    </div>
-  )
-}
 
-export default Header
+      <nav className="flex-grow">
+        <ul className="flex justify-center space-x-6">
+          <li>
+            <button onClick={() => handleScroll('about')} className="hover:text-[#F1EBE1] font-spacemono font-bold">About</button>
+          </li>
+          <li>
+            <button onClick={() => handleScroll('skill')} className="hover:text-[#F1EBE1] font-spacemono font-bold">Portfolio</button>
+          </li>
+          <li>
+            <button onClick={() => handleScroll('contact')} className="hover:text-[#F1EBE1] font-spacemono font-bold">Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="w-12 h-12"></div> 
+    </header>
+  );
+}
