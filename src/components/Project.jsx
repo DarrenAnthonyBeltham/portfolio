@@ -69,12 +69,11 @@ const Project = () => {
         initial="hidden"
         animate="visible"
         variants={{
-          hidden: { opacity: 0, y: 20 },
+          hidden: { opacity: 0 },
           visible: {
             opacity: 1,
-            y: 0,
             transition: {
-              staggerChildren: 0.2,
+              staggerChildren: 0.1, 
             },
           },
         }}
@@ -82,16 +81,30 @@ const Project = () => {
         {projects.map((project) => (
           <motion.div
             key={project.id}
-            className="rounded-lg p-4 flex flex-col items-start justify-between font-spacemono transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:bg-[#E6E1D9]"
+            className="rounded-lg p-4 flex flex-col items-start justify-between font-spacemono transform transition-all duration-300" 
+            whileHover={{ 
+              scale: 1.08, 
+              rotate: 2, 
+              boxShadow: '0px 15px 25px rgba(0,0,0,0.1)' 
+            }}
+            whileTap={{ scale: 0.96 }}
             variants={{
-              hidden: { opacity: 0, y: 20 },
-              visible: { opacity: 1, y: 0 },
+              hidden: { opacity: 0, scale: 0.85, rotate: -3 },
+              visible: { opacity: 1, scale: 1, rotate: 0 },
+            }}
+            transition={{
+              type: 'spring',
+              stiffness: 300,
+              damping: 15,
             }}
           >
-            <img
+            <motion.img
               src={project.img}
               alt={project.title}
               className="rounded-md mb-4"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.1, duration: 0.3 }} 
             />
             <h3 className="text-xl font-bold">{project.title}</h3>
             <a
