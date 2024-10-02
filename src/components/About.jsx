@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../image/Profile.jpg'; // Update this path to your uploaded image
+import Profile from '../image/Profile.jpg'; 
 
 export default function About() {
   return (
@@ -10,9 +10,15 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold mb-2">Darren Anthony Beltham,</h2>
           <h2 className="text-2xl md:text-4xl font-bold mb-2">a college student from</h2>
           <h2 className="text-2xl md:text-4xl font-bold mb-4">Bina Nusantara University</h2>
+          <a 
+            href="https://www.linkedin.com/in/darrenanthonybeltham" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
           <button className="italic mt-6 bg-[#F1EBE1] text-[#4A6857] font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-[#D7CCC8] transition-colors">
             View More
           </button>
+        </a>
         </div>
 
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
