@@ -10,11 +10,11 @@ const Homepage = () => {
   return (
     <div>
       <Header/>
-      <About/>
-      <Skill/>
-      <Project/>
-      <Experience/>
-      <Contact/>
+      <section id="about"><About/></section>
+      <section id="skill"><Skill/></section>
+      <section id="project"><Project/></section>
+      <section id="experience"><Experience/></section>
+      <section id="contact"><Contact/></section>
     </div>
   )
 }
