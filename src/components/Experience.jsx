@@ -1,8 +1,8 @@
 import React from 'react';
-import TzuChi from '../image/Tzu Chi.png'
-import TechUp from '../image/TechUp.png'
-import UYS from '../image/UYS.png'
-import SOL from '../image/SOL.png'
+import TzuChi from '../image/TzuChi.png'
+import TechUp from '../image/Tech Up.png'
+import UncoverYourSkill from '../image/UncoverYourSkill.png'
+import SliceOfLife from '../image/Slice Of Life.png'
 
 const experiences = [
   {
@@ -18,12 +18,12 @@ const experiences = [
   {
     id: 3,
     title: 'PIC of Event Operations for BNCC Uncover Your Skill 2024',
-    img: UYS,
+    img: UncoverYourSkill,
   },
   {
     id: 4,
     title: 'Sponsorship Committee for BNCC Slice of Life 2024',
-    img: SOL,
+    img: SliceOfLife,
   },
 ];
 
