@@ -8,8 +8,8 @@ I'm Darren, a software developer with a keen interest in building scalable web a
 
 ## Collaboration and Contact
 
-I’m always open to collaborating on projects or taking on new challenges. If you're interested in working together or have any questions about my projects, please feel free to [contact me](mailto:your.email@example.com).
+I’m always open to collaborating on projects or taking on new challenges. If you're interested in working together or have any questions about my projects, please feel free to [contact me](mailto:darrenanthonybeltham@gmail.com).
 
-You can also connect with me on [LinkedIn]https://www.linkedin.com/in/darrenanthonybeltham(#) for more updates.
+You can also connect with me on [LinkedIn](https://www.linkedin.com/in/darrenanthonybeltham) for more updates.
 
 Thank you for visiting my portfolio, and I look forward to connecting with you!
