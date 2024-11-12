@@ -2,7 +2,7 @@ import React from 'react';
 import TzuChi from '../image/TzuChi.png'
 import TechUp from '../image/Tech Up.png'
 import UncoverYourSkill from '../image/UncoverYourSkill.png'
-import SliceOfLife from '../image/Slice Of Life.png'
+import SOL from '../image/SOL.jpg'
 
 const experiences = [
   {
@@ -23,7 +23,7 @@ const experiences = [
   {
     id: 4,
     title: 'Sponsorship Committee for BNCC Slice of Life 2024',
-    img: SliceOfLife,
+    img: SOL,
   },
 ];
 
